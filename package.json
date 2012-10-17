@@ -1,14 +1,18 @@
 {
   "name": "rulio",
   "description": "Barebones module based irc bot",
-  "version": "1.0.0",
-  "author": "Igor Soarez <igorsoarez@gmail.com>",
+  "version": "0.1.0-2",
+  "author": "Igor Soarez <igor@soarez.com>",
   "dependencies": {
     "irc": "~0.3.4",
-    "lodash": "~0.3.2"
+    "lodash": "~0.3.2",
+    "rkb": "0.0.4"
   },
   "engines": {
     "node": ">=0.6.9"
   },
-  "scripts" : { "start" : "node server.js" }
+  "scripts": {
+    "start": "node server.js"
+  },
+  "subdomain": "jdduarte.rulio"
 }
